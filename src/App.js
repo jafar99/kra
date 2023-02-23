@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import kra from '../src/kra.png';
+import {Row,Col} from 'antd';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        
+        <Row>
+        <Col span={2.5} className="kra">
+          <img  src={kra} alt=""></img>
+        </Col>
+        <Col span={21} className="marq" >
+
+            <marquee  >
+            <div className="marquee" ><span className='text'>Gold 24KT - RS.5677.20 Per Gm</span></div>
+            <div  className="marquee1"><span className='text'>Gold 24KT - RS.5283.70 Per Gm</span></div>
+            <div  className="marquee"><span className='text'>Gold 24KT - RS.4496.80 Per Gm</span></div>
+            <div  className="marquee1"><spa className='text'>Pune Sliver - Rs.6680 per Gm</spa></div>
+
+            </marquee>
+          
+        </Col>
+        </Row>
     </div>
   );
 }
