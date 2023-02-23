@@ -2,14 +2,14 @@
  .marquee {
    display: inline-block;
    background-color: goldenrod;
-   height: 5rem;
+   /* height: 5rem; */
    width: auto;
 
  } 
  .marquee1 {
   display: inline-block;
   background-color: #AA6C39;
-  height: 5rem;
+  /* height: 5rem; */
   width: auto;
 } 
 .marq{
@@ -19,7 +19,7 @@
 .kra{
   /* margin: 5px 5px; */
  /* width: 15%; */
-  height: 5rem;
+  /* height: 5rem; */
 }
 
 .text{
