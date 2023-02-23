@@ -6,7 +6,7 @@ import {Row,Col,Space} from 'antd';
 function App() {
   return (
     <div className="App">
-        <div>
+        <div className='allignitems'>
         <Row>
         <Col span={3} className="kra">
           <img  src={kra} alt="" className='img'></img>

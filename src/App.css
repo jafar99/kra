@@ -4,8 +4,14 @@
    background-color: goldenrod;
    /* height: 5rem; */
    width: auto;
-
- } 
+ }
+.allignitems {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+ 
  .marquee1 {
   display: inline-block;
   background-color: #AA6C39;
