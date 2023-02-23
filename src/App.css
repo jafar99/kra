@@ -2,29 +2,34 @@
  .marquee {
    display: inline-block;
    background-color: goldenrod;
-   /* height: 5.5rem; */
-   width: 23%;
+   height: 5rem;
+   width: auto;
 
  } 
  .marquee1 {
   display: inline-block;
   background-color: #AA6C39;
-  /* height: 5.5rem; */
-  width: 23%;
+  height: 5rem;
+  width: auto;
 } 
 .marq{
-  margin-top: 32px;
+  margin-top: 25px;
 }
 .kra{
-  margin: 5px 5px;
-  width: 11%;
+  /* margin: 5px 5px; */
+ 
+  height: 5rem;
 }
 
 .text{
   display: flex;
   /* text-align: center; */
   justify-content: center;
-  padding: 32px;
+  padding-top: 25px;
   font-size: 20px;
   color: white;
+}
+
+.img{
+  height: 8rem;
 }

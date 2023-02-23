@@ -1,17 +1,17 @@
 
 import './App.css';
 import kra from '../src/kra.png';
-import {Row,Col} from 'antd';
+import {Row,Col,Space} from 'antd';
 
 function App() {
   return (
     <div className="App">
-        
+        <Space>
         <Row>
-        <Col span={2.5} className="kra">
-          <img  src={kra} alt=""></img>
+        <Col  className="kra">
+          <img  src={kra} alt="" className='img'></img>
         </Col>
-        <Col span={21} className="marq" >
+        <Col  className="marq" >
 
             <marquee  >
             <div className="marquee" ><span className='text'>Gold 24KT - RS.5677.20 Per Gm</span></div>
@@ -23,6 +23,7 @@ function App() {
           
         </Col>
         </Row>
+        </Space>
     </div>
   );
 }
