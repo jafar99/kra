@@ -3,21 +3,22 @@
    display: inline-block;
    background-color: goldenrod;
    height: 5rem;
-   width: auto;
+   width: 23%;
 
  } 
  .marquee1 {
   display: inline-block;
   background-color: #AA6C39;
   height: 5rem;
-  width: auto;
+  width: 23%;
 } 
 .marq{
   margin-top: 25px;
+  /* width: 100%; */
 }
 .kra{
   /* margin: 5px 5px; */
- 
+ /* width: 15%; */
   height: 5rem;
 }
 
